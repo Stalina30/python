@@ -1,0 +1,9 @@
+n=int(input("enter a positive number:"))
+print("prime factors of",n,"are:")
+fact=2
+while fact<=n:
+   if n%fact==0:
+      print(fact)
+      n//=fact
+   else:
+      fact+=1
