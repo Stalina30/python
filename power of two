@@ -1,0 +1,10 @@
+def pow(base,exp=2):
+   power=base**exp
+   print("power of a number",power)
+base=int(input("enter the base of the number"))
+exp=int(input("enter the exp of the number"))
+if exp>2 :
+   pow(base,exp)
+else:
+   print("exponent value is less than 2")
+   pow(base)
