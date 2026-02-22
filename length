@@ -1,0 +1,4 @@
+words=input("enter the word:").split()
+x=input("enter the character:")
+index=[i for i in range (len (words)) if x in words[i]]
+print(index)
