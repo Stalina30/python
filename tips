@@ -1,0 +1,11 @@
+def bill(n,amt,tip):
+  tips=amt*(tip/100)
+  print(tips)
+  amt=amt+tips
+  print(amt)
+  amtpp=amt//n
+  print(amtpp)
+n=int(input("enter the no of person"))
+amt=int(input("enter the amount"))
+tip=int(input("enter the tips percentage"))
+bill(n,amt,tip)
