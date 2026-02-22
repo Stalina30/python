@@ -1,0 +1,6 @@
+def  countelement(l,element):
+         return l,count(element)
+      count=0
+l=["once","upon","a","time","lived","a","king","his","name","is","king"]
+element='king'
+print('{} has occurred {} times'.format(element,countelement(l,element)))
